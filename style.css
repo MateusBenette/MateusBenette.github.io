@@ -319,6 +319,7 @@ ESTRUTURA BASE
   
   input:checked ~ .dark-mode header .container label span {
     transform: translateX(25px);
+    transition: all ease .3s;
   }
   
   input:checked ~ .dark-mode {
