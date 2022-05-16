@@ -29,11 +29,11 @@ ESTRUTURA BASE
     --black: #000;
     --white: #fff;
   
-    --gray-100: #c9c9c9;
-    --gray-200: #a7a7a7;
-    --gray-300: #6a6a6a;
+    --gray-100: #697aff;
+    --gray-200: #697aff;
+    --gray-300: #697aff;
   
-    --border-gray: #c9c9c9;
+    --border-gray: #fff;
     --bg-white: #fff;
   
     --flyerbox: 0 0 20px 5px rgb(0, 0, 0, 0.15);
@@ -150,6 +150,7 @@ ESTRUTURA BASE
   }
   header .col figure img {
     max-width: 350px;
+    border-radius: 100%;
   }
   header .col h1 {
   }
@@ -336,7 +337,7 @@ ESTRUTURA BASE
   
   input:checked ~ .dark-mode,
   input:checked ~ .dark-mode footer {
-    background-color: #000;
+    background-color: #111
   }
   
   main .col section ul li,
